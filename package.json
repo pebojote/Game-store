@@ -1,0 +1,32 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "\"# Online-Store-Management-for-Louarc-Company\"",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "php -S localhost:8080",
+    "production": "webpack --mode production && php -S 127.0.0.1:8080 -t dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAdilen1019/Online-Store-Management-for-Louarc-Company.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xAdilen1019/Online-Store-Management-for-Louarc-Company/issues"
+  },
+  "homepage": "https://github.com/xAdilen1019/Online-Store-Management-for-Louarc-Company#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
