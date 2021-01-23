@@ -4,7 +4,7 @@ $styles = "index.css";
 $scripts = "index.js";
 $content = <<< 'HTML'
 <div class="container-sm">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,8 +30,8 @@ $content = <<< 'HTML'
     </div>
     </nav>
     <div class="row">
-        <div class="col"></div>
-        <div class="col p-5 mt-5">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 mt-5">
         <div class="card">
             <div class="card-body">
             <form action="/action_page.php">
@@ -53,7 +53,7 @@ $content = <<< 'HTML'
             </div>
         </div>
         </div>
-        <div class="col"></div>
+        <div class="col-sm-4"></div>
     </div>
 </div>
 HTML;
