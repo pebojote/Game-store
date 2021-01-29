@@ -1,6 +1,6 @@
 <?php require './source/config/routes.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<title>

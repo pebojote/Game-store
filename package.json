@@ -21,7 +21,8 @@
   "homepage": "https://github.com/xAdilen1019/Online-Store-Management-for-Louarc-Company#readme",
   "dependencies": {
     "@popperjs/core": "^2.6.0",
-    "bootstrap": "^5.0.0-beta1"
+    "bootstrap": "^5.0.0-beta1",
+    "lottie-web": "^5.7.6"
   },
   "devDependencies": {
     "css-loader": "^5.0.1",
